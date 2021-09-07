@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="suite1">
+	<test name="name1">
+		<groups>
+			<run>
+				<include name="Apple Case"></include>
+				<include name="Samsung Case"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testNGTutorial.GroupingTestCase"></class>
+			<!-- <class name = "testNGTutorial.InitialSetup"></class> <class name 
+				= "testNGTutorial.SetPriority"></class> <class name = "testNGTutorial.SkipTestCase"></class> -->
+		</classes>
+	</test>
+</suite>
