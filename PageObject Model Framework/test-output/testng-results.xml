@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31793" started-at="2021-04-24T19:24:42 IST" finished-at="2021-04-24T19:25:14 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31793" started-at="2021-04-24T19:24:42 IST" finished-at="2021-04-24T19:25:14 IST">
+      <class name="testPOM.AdminPageFactory">
+        <test-method status="PASS" signature="AdminPage()[pri:0, instance:testPOM.AdminPageFactory@3701eaf6]" name="AdminPage" duration-ms="31697" started-at="2021-04-24T19:24:42 IST" finished-at="2021-04-24T19:25:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminPage -->
+      </class> <!-- testPOM.AdminPageFactory -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
