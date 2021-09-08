@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43543" started-at="2021-04-16T17:08:07 IST" finished-at="2021-04-16T17:08:50 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43543" started-at="2021-04-16T17:08:07 IST" finished-at="2021-04-16T17:08:50 IST">
+      <class name="dataDrivenTutorial.TestProvider">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:dataDrivenTutorial.TestProvider@6737fd8f]" name="OpenBrowser" is-config="true" duration-ms="11152" started-at="2021-04-16T17:08:07 IST" finished-at="2021-04-16T17:08:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String, java.lang.String)[pri:0, instance:dataDrivenTutorial.TestProvider@6737fd8f]" name="OpenBrowser" duration-ms="6521" started-at="2021-04-16T17:08:18 IST" data-provider="data" finished-at="2021-04-16T17:08:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String, java.lang.String)[pri:0, instance:dataDrivenTutorial.TestProvider@6737fd8f]" name="OpenBrowser" duration-ms="6370" started-at="2021-04-16T17:08:25 IST" data-provider="data" finished-at="2021-04-16T17:08:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Manoj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String, java.lang.String)[pri:0, instance:dataDrivenTutorial.TestProvider@6737fd8f]" name="OpenBrowser" duration-ms="6632" started-at="2021-04-16T17:08:31 IST" data-provider="data" finished-at="2021-04-16T17:08:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DUMMY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String, java.lang.String)[pri:0, instance:dataDrivenTutorial.TestProvider@6737fd8f]" name="OpenBrowser" duration-ms="6206" started-at="2021-04-16T17:08:38 IST" data-provider="data" finished-at="2021-04-16T17:08:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String, java.lang.String)[pri:0, instance:dataDrivenTutorial.TestProvider@6737fd8f]" name="OpenBrowser" duration-ms="6260" started-at="2021-04-16T17:08:44 IST" data-provider="data" finished-at="2021-04-16T17:08:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:dataDrivenTutorial.TestProvider@6737fd8f]" name="CloseBrowser" is-config="true" duration-ms="730" started-at="2021-04-16T17:08:51 IST" finished-at="2021-04-16T17:08:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- dataDrivenTutorial.TestProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

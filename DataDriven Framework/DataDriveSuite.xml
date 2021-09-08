@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="DDSuite">
+
+	<test name="CorrectCredentials">
+		<parameter name="UserName" value="Admin"></parameter>
+		<parameter name="Password" value="admin123"></parameter>
+		<classes>
+			<class name="dataDrivenTutorial.CorrectCredentials"></class>
+		</classes>
+	</test>
+
+	<test name="IncorrectCred">
+		<parameter name="UserName" value="Admin"></parameter>
+		<parameter name="Password" value="admin456"></parameter>
+		<classes>
+			<class name="dataDrivenTutorial.IncorrectCred"></class>
+		</classes>
+	</test>
+
+</suite>
